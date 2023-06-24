@@ -1,15 +1,15 @@
 import React from 'react';
 
-const MenuItems = ({items})=> {
-  return (
-    <>
-        <div className='menu-items container-fluid mt-5'>
+const MenuItems = ({ items }) => {
+    return (
+        <>
+            <div className='menu-items container-fluid mt-5'>
                 <div className='row'>
                     <div className='col-11 mx-auto'>
-                        <div className='row my-5'>
+                        <div className='row my-5 main'>
                             {
                                 items.map(elem => {
-                                    const {id, name, image, description, price}=elem;
+                                    const { id, name, image, description, price } = elem;
                                     return (
                                         <div className='item-1 col-12 col-md-6 col-lg-6 col-xl-4 my-4' key={id}>
                                             <div className='row Item-inside'>
@@ -19,7 +19,7 @@ const MenuItems = ({items})=> {
                                                 <div className='col-12 col-md-12 col-lg-8'>
                                                     <div className='main-title pt-4 pb-3'>
                                                         <h1>{name}</h1>
-                                                        <p>{description  }</p>
+                                                        <p>{description}</p>
                                                     </div>
                                                     <div className='menu-price-book'>
                                                         <div className='price-book-divide d-flex justify-content-between'>
@@ -38,8 +38,8 @@ const MenuItems = ({items})=> {
                     </div>
                 </div>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default MenuItems;

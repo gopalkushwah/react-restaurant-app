@@ -8,6 +8,11 @@
   color: #5d4037;
 }
 
+.item-1 {
+  margin: .5rem;
+
+}
+
 .Item-inside {
   height: 220px;
   border-radius: 12px;
@@ -56,6 +61,8 @@ img {
 .row {
   margin-right: 0;
   margin-left: 0px;
+
+
 }
 
 .btn-primary {
@@ -76,6 +83,7 @@ img {
   color: whitesmoke;
   outline: none;
 }
-.marg{
+
+.marg {
   margin: 0 .1rem;
 }

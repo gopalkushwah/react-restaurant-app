@@ -19,6 +19,7 @@ const GalleryReact = () => {
     }
     return (
         <>
+        
             <h1 className='mt-5 text-center main-heading'>Order your favourite Dish</h1>
             <CatMenu filterItem={filterItem} catItems={catItems} />
             <MenuItems items={items} />
